@@ -144,3 +144,4 @@ scenarios = {'harness_truthfulqa_mc_0':['harness_truthfulqa_mc_0'],
                          'harness_hendrycksTest_us_foreign_policy_5', 
                          'harness_hendrycksTest_virology_5', 
                          'harness_hendrycksTest_world_religions_5']}
+scenarios = {'mmlu':['mmlu']}
