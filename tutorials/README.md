@@ -14,7 +14,6 @@ cd py-irt
 poetry install
 ```
 
-
 ## Tutorials Overview
 
 This repository contains three Jupyter notebooks. The following notebooks will by default run on tinybenchmark datasets and models. If you want to skip and directly move to run for MMLU then jump to MMLU Data Preparation. If you want to tun the following noteboks, delete line no 147 in `utils.py`. We just overwriting scenarios with mmlu by adding `scenarios = {'mmlu':['mmlu']}` in line 147 of `utils.py`.
@@ -32,6 +31,7 @@ This repository contains three Jupyter notebooks. The following notebooks will b
 ### MMLU Data Preparation
 Basically each dataset is treated as scenario here. And each LLMs to be evaluated called as subject. 
 First run the following to understand the way they format the llms response for each samples.
+In [x] --denotes xth cell input cell in .ipynb 
 
 ```python
 with open('data/lb.pickle', 'rb') as handle:
